@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "red30"
+    organization = "AntonPushkarev"
 
     workspaces {
-      name = "cli-workspace"
+      name = "TerraformLearning"
     }
   }
 }
