@@ -67,3 +67,7 @@ jobs:
 
     - name: Lets test some packages if they are here 2
       run : zip --version
+      
+    - name: Lets test some packages if they are here 3
+      run : pip --version
+
